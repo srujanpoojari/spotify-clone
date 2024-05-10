@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+body{
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color:white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 43px;
+    height: 43px;
+    padding: 0 5px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 7px;
+    padding: 20px;
+    background-image: url('bgd.webp');
+    background-repeat: no-repeat;
+    background-size: 1080px;
+}
+.brand{
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    align-items: center;
+    color: #69c973;
+    font-family: 'Geologica', sans-serif;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#Progress{
+    width: 80vw;
+    background-color: #69c973;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 10px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    color: black;
+    background-color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+}
+.songitem img{
+    width: 50px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}

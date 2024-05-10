@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotifylogo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songitemcontainer">
+        <div class="songlist">
+            <h1>Best of Ariana Grande</h1>
+            
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Thank you, next</span>
+                    <span class="songlistplay"><span class ="timestamp">3.27 <i id="1" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Positions</span>
+                    <span class="songlistplay"><span class ="timestamp">2.53 <i id="2" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">One Last Time</span>
+                    <span class="songlistplay"><span class ="timestamp">3.17 <i id="3" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">7 rings</span>
+                    <span class="songlistplay"><span class ="timestamp">2.56 <i id="4" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">34 35</span>
+                    <span class="songlistplay"><span class ="timestamp">2.53 <i id="5" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+        <div class="songbanner">
+        </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="Progress" value = "0" min="0" max="100">
+        <div class="icons">
+            <i class="fa fa-3x fa-step-backward" id="forward"></i>
+            <i class="fa fa-3x fa-circle-play" id = "masterPlay"></i>
+            <i class="fa fa-3x fa-step-forward" id="backward"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d293abc5ba.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
